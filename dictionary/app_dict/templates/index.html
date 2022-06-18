@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+   {{ title }}
+{% endblock %} 
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+        <h4 class="joke-text">{{ definition }}</h4>
+        </div>
+    </div>
+        <div class="row">
+            <a href="/" class="btn btn-primary btn-lg" role="button" id="more">FIRE</a>
+        </div>      
+      
+</div>
+
+
+{% endblock %} 

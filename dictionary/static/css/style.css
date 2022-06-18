@@ -1,0 +1,55 @@
+body {   
+    background-image: url('../img/cactus.png');
+    background-color: #ffd057;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    
+}
+a#more {
+    position: absolute;
+    bottom: 170px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80px;
+    color: #572814;
+    background-color: #e95b40;
+    border-color: #572814;
+    border-radius: 5px;
+    font-family:'Trebuchet MS';
+    font-weight: 900;
+}
+
+.joke-text {
+    margin-top: 30px;
+    
+    text-align: center;
+    color:  #572814;
+    font-family: 'Trebuchet MS';
+}
+
+.navbar {
+    background-color: #e95b40;
+    border-color: #000000;
+    border-width: 20px;
+    border-right: #000000;
+    height: 60px; 
+    
+}
+.navbar a {
+    color: #572814;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#iconchuck {
+    border: #572814;
+    border-radius: 5px;
+   
+}
